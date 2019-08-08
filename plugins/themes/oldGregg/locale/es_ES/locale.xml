@@ -46,6 +46,7 @@
 	<message key="plugins.gregg.citation-style.description">Citation Style para las referencias de JATS XML</message>
 	<message key="plugins.gregg.citation-style.vancouver">Vancouver</message>
 	<message key="plugins.gregg.citation-style.apa">APA</message>
+	<message key="plugins.gregg.open.access">open access</message>
 
 	<!-- Journal Index page -->
 	<message key="plugins.gregg.issues.slider.title">últimos números</message>

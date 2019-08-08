@@ -164,6 +164,7 @@
 	</div>
 	<div class="articleView-data row">
 		<div class="left-article-block col-xl-3">
+			{*
 			{if $generatePdfUrl}
 				<div class="galley-pdf-link-wrapper">
 					<a class="galley-link-pdf" href="{$generatePdfUrl}">
@@ -171,6 +172,7 @@
 					</a>
 				</div>
 			{/if}
+			*}
 		</div>
 		<div class="col-xl-6 col-lg-8">
 			<div class="article-fulltext">
