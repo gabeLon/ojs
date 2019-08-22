@@ -31,6 +31,27 @@
                     </a>
                 </div>
             </div>
+	    <div class="row md-6">
+		    <div class="col md-6" style="height: 50px; text-align:left; padding: 20px;">
+			    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
+			    <img src="http://onthecloud.tk/public/journals/1/icon-fn.png">
+			    </a>
+			    <a class="nav-item" href="http://www.profam.org.ar/profam-home.php">
+			    <img src="http://onthecloud.tk/public/journals/1/icon-pn.png">
+			    </a>
+			    <a class="nav-item" href="http://www.mfsalud.com.ar/mf-salud-home.php">
+			    <img src="http://onthecloud.tk/public/journals/1/icon-mf.png">
+			    </a>
+			    <a class="nav-item" href="http://www.sanpantaleon.org.ar/san-pantaleon-home.php">
+			    <img src="http://onthecloud.tk/public/journals/1/icon-sp.png">
+			    </a>
+		    </div>
+		    <div class="col md-6" style="height: 50px; text-align:right; padding: 20px;">
+			    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
+			    <img src="http://onthecloud.tk/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
+			    </a>
+		    </div>
+	   </div>
         </div>
     </div><!-- pkp_structure_footer_wrapper -->
 {/if}
