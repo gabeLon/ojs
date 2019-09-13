@@ -38,6 +38,7 @@
 {/if}
 
 {* Don't be frightened. This is just a link *}
+{if $galley->isPdfGalley()}
 <a class="galley-link {if $isSupplementary}obj_galley_link_supplementary{else}obj_galley_link{/if} {$type}{if $restricted} restricted{/if}"
    href="{url page=$page op="view" path=$parentId|to_array:$galley->getBestGalleyId()}">
 
@@ -52,7 +53,7 @@
 		</span>
     {/if}
 
-    <i class="fas fa-file-download fa-2x"></i>
+    <i class="fas fa-file-pdf fa-2x"></i>
 
     {if $restricted && $purchaseFee && $purchaseCurrency}
         <span class="purchase_cost">
@@ -60,3 +61,4 @@
 		</span>
     {/if}
 </a>
+{/if}
