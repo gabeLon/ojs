@@ -34,21 +34,24 @@
 	    <div class="row md-6">
 		    <div class="col md-6" style="height: 50px; text-align:left; padding: 20px;">
 			    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
-			    <img src="http://onthecloud.tk/public/journals/1/icon-fn.png">
+			    <img src="/public/journals/1/icon-fn.png">
 			    </a>
 			    <a class="nav-item" href="http://www.profam.org.ar/profam-home.php">
-			    <img src="http://onthecloud.tk/public/journals/1/icon-pn.png">
+			    <img src="/public/journals/1/icon-pn.png">
 			    </a>
 			    <a class="nav-item" href="http://www.mfsalud.com.ar/mf-salud-home.php">
-			    <img src="http://onthecloud.tk/public/journals/1/icon-mf.png">
+			    <img src="/public/journals/1/icon-mf.png">
 			    </a>
 			    <a class="nav-item" href="http://www.sanpantaleon.org.ar/san-pantaleon-home.php">
-			    <img src="http://onthecloud.tk/public/journals/1/icon-sp.png">
+			    <img src="/public/journals/1/icon-sp.png">
 			    </a>
+			    <a class="nav-item" href="https://www.deliaygustavo.com/">
+                            <img src="/public/journals/1/DeliaYGustavo.webp" style="width:32px;">
+                            </a>
 		    </div>
 		    <div class="col md-6" style="height: 50px; text-align:right; padding: 20px;">
 			    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
-			    <img src="http://onthecloud.tk/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
+			    <img src="/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
 			    </a>
 		    </div>
 	   </div>

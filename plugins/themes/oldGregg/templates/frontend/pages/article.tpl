@@ -15,4 +15,3 @@
 
 </div><!-- .page -->
 {include file="frontend/components/footer.tpl"}
-
