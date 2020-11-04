@@ -75,7 +75,34 @@
                         <div class="pkp_structure_sidebar" role="complementary"
                              aria-label="{translate|escape key="common.navigation.sidebar"}">
                             {$sidebarCode}
-                        </div>
+			<div class="pkp_block block_custom" id="customblock-doaj">
+				<div class="content">
+					<p>
+					<a href="https://doaj.org/toc/1667-5703" target="_blank">
+					<img src="/public/journals/1/DOAJ.png" alt="DOAJ">
+					</a>
+					</p>
+				</div>
+			</div>
+			<div class="pkp_block block_custom" id="customblock-lilac">
+				<div class="content">
+					<p>
+					<a href="https://lilacs.bvsalud.org/es/revistas-lilacs/revistas-indexadas-en-lilacs/" target="_blank">
+					<img src="/public/journals/1/lilacs_logo_es.png" alt="LILACS">
+					</a>
+					</p>
+				</div>
+			</div>
+			<div class="pkp_block block_custom" id="customblock-IUHI">
+				<div class="content">
+					<p>
+					<a href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio" target="_blank">
+					<img src="/public/journals/1/IUHI.png" alt="IUHI">
+					</a>
+					</p>
+				</div>
+			</div>
+			</div>
                     {/if}
                 {/if}
             </div>
