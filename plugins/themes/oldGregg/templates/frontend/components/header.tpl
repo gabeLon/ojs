@@ -64,11 +64,21 @@
                     {load_menu name="primary" id="navigationPrimary" ulClass="pkp_navigation_primary"}
                 </div>
             {/if}
-
         </div>
         {if ($displayPageHeaderTitle && !$displayPageHeaderLogo && is_string($displayPageHeaderTitle)) || $requestedPage|escape == "article"}
             <a href="{$homeUrl}" class="is_text journal-name navbar-brand">{$displayPageHeaderTitle}</a>
         {/if}
+
+	    <div class="col md-3" style="height: auto; text-align:right">
+		    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
+		    <img src="/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
+		    </a>
+	    </div>
+	    <div class="col md-3" style="height: auto; text-align:right">
+		    <a class="nav-item" href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio">
+		    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="250">
+		    </a>
+	    </div>
     </nav>
     {if $requestedPage|escape != "article"}
         <div class="container-fluid">

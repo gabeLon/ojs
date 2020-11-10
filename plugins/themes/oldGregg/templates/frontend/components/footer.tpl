@@ -49,9 +49,14 @@
                             <img src="/public/journals/1/DeliaYGustavo.webp" style="width:32px;">
                             </a>
 		    </div>
-		    <div class="col md-6" style="height: 50px; text-align:right; padding: 20px;">
+		    <div class="col md-3" style="height: auto; text-align:right; padding: 20px;">
 			    <a class="nav-item" href="http://www.fundacionmf.org.ar/">
 			    <img src="/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
+			    </a>
+		    </div>
+		    <div class="col md-3" style="height: auto; text-align:right; padding: 20px;">
+			    <a class="nav-item" href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio">
+			    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="250">
 			    </a>
 		    </div>
 	   </div>
