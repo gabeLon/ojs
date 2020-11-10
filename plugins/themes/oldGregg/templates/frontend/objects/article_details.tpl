@@ -254,7 +254,7 @@
 			{/if}
 		</div>
 		<div class="articleView-data row">
-			<div class="left-article-block col-xl-3">
+			<div class="left-article-block col-xl-2 col-lg-3 col-sm-12">
 				{if $generatePdfUrl || $primaryGalleys}
 					<div class="galley-link-wrapper">
 						{if $generatePdfUrl}
@@ -270,8 +270,51 @@
 						{/if}
 					</div>
 				{/if}
+
+				{* How to cite *}
+				{if $citation}
+
+					<div class="intraarticle-menu article-details-block">
+						<div class="article-details-block article-details-how-to-cite">
+							<h3 class="article-details-heading">
+								{translate key="submission.howToCite"}
+							</h3>
+							<div id="citationOutput" class="article-details-how-to-cite-citation" role="region" aria-live="polite">
+								{$citation}
+							</div>
+							<div class="dropdown">
+								<button class="btn dropdown-toggle" type="button" id="cslCitationFormatsButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-csl-dropdown="true">
+									{translate key="submission.howToCite.citationFormats"}
+								</button>
+								<div class="dropdown-menu" aria-labelledby="cslCitationFormatsButton">
+									{foreach from=$citationStyles item="citationStyle"}
+										<a
+											class="dropdown-item"
+											aria-controls="citationOutput"
+											href="{url page="citationstylelanguage" op="get" path=$citationStyle.id params=$citationArgs}"
+											data-load-citation
+											data-json-href="{url page="citationstylelanguage" op="get" path=$citationStyle.id params=$citationArgsJson}"
+										>
+											{$citationStyle.title|escape}
+										</a>
+									{/foreach}
+									{if count($citationDownloads)}
+										<h3 class="dropdown-header">
+											{translate key="submission.howToCite.downloadCitation"}
+										</h3>
+										{foreach from=$citationDownloads item="citationDownload"}
+											<a class="dropdown-item" href="{url page="citationstylelanguage" op="download" path=$citationDownload.id params=$citationArgs}">
+												{$citationDownload.title|escape}
+											</a>
+										{/foreach}
+									{/if}
+								</div>
+							</div>
+						</div>
+					</div>
+				{/if}
 			</div>
-			<div class="col-xl-6 col-lg-8">
+			<div class="col-xl-8 col-lg-6 col-sm-12">
 				<div class="article-fulltext">
 					{if $article->getLocalizedAbstract()}
 						<h2 class="article-section-title article-abstract">{translate key="article.abstract"}</h2>
@@ -282,11 +325,12 @@
 
 				</div>
 			</div>
-			<div class="details-wrapper col-xl-3 col-lg-4">
+			<div class="details-wrapper col-xl-2 col-lg-3 col-sm-0">
 				<div class="intraarticle-menu">
 					<nav id="article-navbar" class="navbar navbar-light">
 						<nav class="nav nav-pills flex-column" id="article-navigation-menu-items">
 							{* adding menu by javascript here *}
+
 						</nav>
 					</nav>
 				</div>
