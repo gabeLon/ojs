@@ -93,11 +93,20 @@
 					</p>
 				</div>
 			</div>
-			<div class="pkp_block block_custom" id="customblock-IUHI">
+			<div class="pkp_block block_custom" id="customblock-latindex">
 				<div class="content">
 					<p>
-					<a href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio" target="_blank">
-					<img src="/public/journals/1/IUHI.png" alt="IUHI">
+					<a href="https://www.latindex.org/latindex/ficha?folio=22115" target="_blank">
+					<img src="/public/journals/1/latindex.png" alt="Latindex">
+					</a>
+					</p>
+				</div>
+			</div>
+			<div class="pkp_block block_custom" id="customblock-GoogleScholar">
+				<div class="content">
+					<p>
+					<a href="https://scholar.google.com/scholar?hl=en&as_sdt=0,5&q=source:Evidencia+actualizaci%C3%B3n+practica+ambulatoria&scisbd=1" target="_blank">
+					<img src="/public/journals/1/google_scholar.jpg" alt="Google Scholar">
 					</a>
 					</p>
 				</div>
