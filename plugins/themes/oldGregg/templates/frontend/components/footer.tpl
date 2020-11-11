@@ -54,9 +54,9 @@
 			    <img src="/public/journals/1/fundacion-mf-logo.png" class="img-fluid" alt="Responsive image" width="250">
 			    </a>
 		    </div>
-		    <div class="col md-3" style="height: auto; text-align:right; padding: 20px;">
+		    <div class="col md-3" style="height: auto; text-align:right; padding: 10px;">
 			    <a class="nav-item" href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio">
-			    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="250">
+			    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="300">
 			    </a>
 		    </div>
 	   </div>

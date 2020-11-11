@@ -76,7 +76,7 @@
 	    </div>
 	    <div class="col md-3" style="height: auto; text-align:right">
 		    <a class="nav-item" href="https://instituto.hospitalitaliano.org.ar/#!/home/principal/inicio">
-		    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="250">
+		    <img src="/public/journals/1/logo_iuhiba_chico_blanco.png" class="img-fluid" alt="Responsive image" width="300">
 		    </a>
 	    </div>
     </nav>
